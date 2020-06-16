@@ -1,3 +1,4 @@
+import React from 'react'
 import Articles from '../../components/articles'
 import { getCategory, getCategories } from '../../lib/api'
 import Layout from '../../components/layout'
