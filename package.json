@@ -11,15 +11,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://kheruc@github.com/kheruc/rt-fistudio.git"
+    "url": "https://kerimdemir.github.io/"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kheruc/rt-fistudio/issues"
+    "url": "https://kerimdemir.github.io/"
+
   },
-  "homepage": "https://github.com/kheruc/rt-fistudio#readme",
+  "homepage": "https://kerimdemir.github.io",
   "dependencies": {
     "next": "^9.0.5",
     "react": "^16.9.0",
