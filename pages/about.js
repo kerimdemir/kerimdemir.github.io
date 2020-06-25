@@ -1,38 +1,46 @@
 import Layout from '../components/Layout';
 
 const About = () => (
-  <Layout title="About">
-    <h1>About Us</h1>
-    <ul className="company-info">
-      <li>
-        <span className="company">Fi Studio Inc</span>
-      </li>
-      <li>101 Elm Street</li>
-      <li>San Francisco, CA</li>
-      <li>
-        <a href="mailto:hi@fi.studio">hi@fi.studio</a>
-      </li>
-    </ul>
-    <div className="about-text">
-      <img src="/static/studio.jpg" />
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut est euismod, iaculis ante efficitur, sodales
-        nisl. Nulla non orci vitae nibh ullamcorper finibus. Morbi a nisl tempor, sodales ex quis, aliquet neque. Lorem
-        ipsum dolor sit amet, consectetur adipiscing elit.
-      </p>
-      <p>
-        Praesent gravida a diam ut faucibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
-        inceptos himenaeos. Sed sed nibh a ipsum sagittis finibus ac in magna. Curabitur id mauris quis nulla commodo
-        tristique.
-      </p>
-      <p>
-        Nunc eu mi et justo sodales vehicula. Vestibulum velit erat, tincidunt sed tortor id, viverra egestas felis.
-        Cras in ullamcorper ex. Etiam diam lacus, interdum sed rhoncus vel, ultricies ut nisi. Nam ut orci at ante
-        auctor mollis. Phasellus eget augue ac nibh vestibulum pellentesque. Nulla enim augue, placerat id malesuada at,
-        maximus sed tortor.
-      </p>
-    </div>
-    <style jsx>{`
+    <Layout title="About">
+        <h1>Hakkımda</h1>
+        <ul className="company-info">
+            <li>
+                <span className="company">Kerim Demir</span>
+            </li>
+            <li>Çankaya, Ankara</li>
+
+            <li>
+                <a href="mailto:kerimdemir@gmai.com">kerimdemir@gmail.com</a>
+            </li>
+        </ul>
+        <div className="about-text">
+            <img src="/static/studio.jpg"/>
+            <p>
+
+
+            </p>
+            <p>
+                Adım Kerim. 1994 Ordu/Ünye doğumluyum. Lise'yi
+                Ünye Anadolu Lisesi'nde okudum ve buradan 2012'de mezun oldum. 2017 yılında Düzce Üniversitesi
+                Bilgisayar Mühendisliğinden mezun oldum. Ankara'da tam zamanlı olarak 2018'den itibaren çalışmaktayım.
+            </p>
+            <p>
+                React Native ile mobil uygulamalar geliştiriyorum. React Native'i Redux, Hooks ve güncel teknolojilerle birlikte kullanıyorum.
+                Web tarafında Reactjs ve Nextjs ile ilgileniyorum. <br/><br/>
+
+
+
+                Project Portfolio:   <b><a href={"https://sites.google.com/view/bmkerimdemirprojectportfolio"}>https://sites.google.com/view/bmkerimdemirprojectportfolio</a></b><br/>
+                Github adresim:       <b><a href={"https://github.com/kerimdemir"}> https://github.com/kerimdemir </a></b><br/>
+                LinkedIn hesabım:     <b><a href={"https://www.linkedin.com/in/kerim-demir-1174a7120/"}> https://www.linkedin.com/in/kerim-demir-1174a7120/</a> </b><br/>
+                Web Sitesi (kişisel):    <b><a href={"https://www.linkedin.com/in/kerim-demir-1174a7120/"}>https://kerimdemir.netlify.com/</a> </b><br/>
+
+
+
+
+            </p>
+        </div>
+        <style jsx>{`
       .company-info {
         margin: 0 0 100px 0;
         padding: 0;
@@ -51,6 +59,8 @@ const About = () => (
         padding: 20px;
       }
       img {
+      width: 300px;
+      height: 200px;
         float: right;
         margin: 10px 0 20px 20px;
       }
@@ -62,7 +72,7 @@ const About = () => (
         }
       }
     `}</style>
-  </Layout>
+    </Layout>
 );
 
 export default About;

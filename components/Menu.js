@@ -4,23 +4,26 @@ const Menu = () => (
   <ul className="menu">
     <li>
       <Link href="/">
-        <a>Home</a>
+        <a>Anasayfa</a>
       </Link>
     </li>
     <li>
       <Link href="/services">
-        <a>Services</a>
+        <a>Projeler</a>
       </Link>
     </li>
     <li>
       <Link href="/portfolio">
-        <a>Portfolio</a>
+        <a>Portfolyo</a>
       </Link>
     </li>
     <li>
       <Link href="/about">
-        <a>About</a>
+        <a>Hakkımda</a>
       </Link>
+    </li>
+      <li>
+
     </li>
     <style jsx>{`
       .menu {
@@ -30,12 +33,13 @@ const Menu = () => (
         display: flex;
       }
       .menu li a {
-        font-size: 22px;
+        font-size: 20px;
         color: #111;
         font-weight: 300;
         padding: 5px 2px;
         margin: 0 10px;
         text-decoration: none;
+        font-family:Chalkboard
       }
       .menu li a:hover {
         padding-bottom: 3px;

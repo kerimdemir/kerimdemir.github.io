@@ -1,13 +1,10 @@
 const Footer = () => (
   <div className="footer-wrapper">
-    <div className="copyright">© {new Date().getFullYear()} Fi Studio.</div>
+    <div className="copyright">© {new Date().getFullYear()} Next Project</div>
     <div className="info">
+
       <p>
-        Note: This is a demo website.{' '}
-        <a href="https://reacttricks.com/learn-react-by-building-websites-with-next">Learn how to build it.</a>
-      </p>
-      <p>
-        Photography source: <a href="https://unsplash.com">Unsplash</a>
+        <a href="http://kerimdemir.netlify.com/"> Kerim Demir</a>
       </p>
     </div>
     <style jsx>{`

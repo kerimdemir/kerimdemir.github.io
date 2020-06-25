@@ -11,7 +11,9 @@ const Logo = () => (
     <style jsx>{`
       .logo img {
         display: block;
-        width: 120px;
+        width: 240px;
+        height: 240px;
+   
       }
       @media (max-width: 600px) {
         .logo {

@@ -8,6 +8,8 @@ const Header = () => (
     <style jsx>{`
       .header-wrapper {
         padding: 30px;
+        margin-bottom: -75px;
+        margin-top: -75px;
         display: flex;
         justify-content: space-between;
         align-items: center;

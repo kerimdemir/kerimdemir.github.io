@@ -10,8 +10,8 @@ const Portfolio = () => {
   }
 
   return (
-    <Layout title="Portfolio">
-      <h1>Portfolio</h1>
+    <Layout title="Portfolyo">
+      <h1>Portfolyo</h1>
       <Gallery images={images} />
     </Layout>
   );

@@ -12,13 +12,6 @@ const images = [
 const Homepage = () => (
   <Layout>
     <div className="cover">
-      <div className="hello">
-        <h1>Hi, we're Fi</h1>
-        <div>A fictional photography studio</div>
-        <Link href="/services">
-          <a className="view-more">What we do</a>
-        </Link>
-      </div>
     </div>
     <div className="latest-work">
       <h2>Latest Work</h2>

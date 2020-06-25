@@ -2,30 +2,9 @@ import Layout from '../components/Layout';
 
 const Services = () => (
   <Layout title="Our Services">
-    <h1>Our Services</h1>
+    <h1>Projeler</h1>
     <div className="services">
-      <div className="services-list">
-        <div className="item">
-          <img src="/static/services/weddings.jpg" />
-          <h2>Weddings</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque laoreet rhoncus mi ac porta.</p>
-        </div>
-        <div className="item">
-          <img src="/static/services/portraits.jpg" />
-          <h2>Portraits</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque laoreet rhoncus mi ac porta.</p>
-        </div>
-        <div className="item">
-          <img src="/static/services/real-estate.jpg" />
-          <h2>Real Estate</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque laoreet rhoncus mi ac porta.</p>
-        </div>
-        <div className="item">
-          <img src="/static/services/travel.jpg" />
-          <h2>Travel</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque laoreet rhoncus mi ac porta.</p>
-        </div>
-      </div>
+
     </div>
     <style jsx>{`
       .services {
