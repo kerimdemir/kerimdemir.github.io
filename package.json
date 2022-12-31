@@ -22,7 +22,7 @@
   },
   "homepage": "https://kerimdemir.github.io",
   "dependencies": {
-    "next": "^9.0.5",
+    "next": "^9.5.5",
     "react": "^16.9.0",
     "react-dom": "^16.9.0"
   }
